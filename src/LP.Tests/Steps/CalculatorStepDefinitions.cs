@@ -2,7 +2,7 @@
 
 using System.Threading.Tasks;
 using FluentAssertions;
-using SpecFlowCalculator.Specs.API;
+using TestLP.Specs.API;
 using TechTalk.SpecFlow;
 
 [Binding]

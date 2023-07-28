@@ -28,25 +28,24 @@ dotnet add "${TEST_PRJ_FILE}" reference "${MAIN_PRJ_FILE}"
 rm -f "${TEST_PRJ_FOLDER}/Class1.cs"
 rm -f "${MAIN_PRJ_FOLDER}/Class1.cs"
 
-dotnet add "${TEST_PRJ_NAME}" package Microsoft.NET.Test.Sdk
-dotnet add "${TEST_PRJ_NAME}" package MSTest.TestFramework
-dotnet add "${TEST_PRJ_NAME}" package MSTest.TestAdapter
-dotnet add "${TEST_PRJ_NAME}" package coverlet.collector
-dotnet add "${TEST_PRJ_NAME}" package NUnit
-dotnet add "${TEST_PRJ_NAME}" package NUnit3TestAdapter
-dotnet add "${TEST_PRJ_NAME}" package NUnit.Allure
-dotnet add "${TEST_PRJ_NAME}" package NUnit.Allure.Steps
-dotnet add "${TEST_PRJ_NAME}" package Allure.Commons
-dotnet add "${TEST_PRJ_NAME}" package NUnit.Analyzers
-dotnet add "${TEST_PRJ_NAME}" package SpecFlow
-dotnet add "${TEST_PRJ_NAME}" package Allure.SpecFlow
-dotnet add "${TEST_PRJ_NAME}" package SpecFlow.NUnit
-dotnet add "${TEST_PRJ_NAME}" package Selenium.WebDriver
-dotnet add "${TEST_PRJ_NAME}" package FluentAssertions
+dotnet add "${TEST_PRJ_FOLDER}" package Microsoft.NET.Test.Sdk
+dotnet add "${TEST_PRJ_FOLDER}" package coverlet.collector
+dotnet add "${TEST_PRJ_FOLDER}" package NUnit
+dotnet add "${TEST_PRJ_FOLDER}" package NUnit3TestAdapter
+# dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure
+# dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure.Steps
+dotnet add "${TEST_PRJ_FOLDER}" package Allure.Commons
+dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow
+dotnet add "${TEST_PRJ_FOLDER}" package Allure.SpecFlow
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit
+dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
+dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
 
 ##########
-dotnet add "${TEST_PRJ_NAME}" package RestSharp
-dotnet add "${TEST_PRJ_NAME}" package SpecFlow.Plus.LivingDocPlugin
+# dotnet add "${TEST_PRJ_FOLDER}" package Swashbuckle.AspNetCore
+dotnet add "${TEST_PRJ_FOLDER}" package RestSharp
+# dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Plus.LivingDocPlugin
 ##########
 
 PROJECT_TAG="</Project>"
