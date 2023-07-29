@@ -1,4 +1,4 @@
-﻿namespace TestLP.Specs.API;
+﻿namespace LP.Tests.Specs.API;
 
 using System.Net;
 using System.Threading.Tasks;
