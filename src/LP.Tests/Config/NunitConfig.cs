@@ -2,7 +2,9 @@
 
 
 
-namespace LP.Tests;
+namespace LP.Tests.Config;
+
+
 
 using NUnit.Framework;
 
