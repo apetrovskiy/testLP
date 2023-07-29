@@ -1,5 +1,6 @@
 ﻿namespace LP.Core;
 
+
 public class Calculator
 {
     public int FirstNumber { get; set; }
