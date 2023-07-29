@@ -1,4 +1,5 @@
-﻿namespace TestLP.Specs.Hooks;
+﻿namespace LP.Tests.Specs.Hooks;
+
 
 // using Microsoft.Extensions.Hosting;
 // using SpecFlowCalculatorAPI;

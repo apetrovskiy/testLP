@@ -1,0 +1,23 @@
+{
+    "allure": {
+        "title": "Ипотеки",
+        "directory": "allure-results",
+        "CleanupResultDirectory": "false",
+    },
+    "specflow": {
+        "stepArguments": {
+            "convertToParameters": "true",
+        }
+    },
+    "bindingCulture": {
+        "name": "en-us"
+    },
+    "language": {
+        "feature": "en-us"
+    },
+    "stepAssemblies": [
+        {
+            "assembly": "Allure.SpecFlowPlugin"
+        }
+    ]
+}

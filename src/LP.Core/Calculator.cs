@@ -1,4 +1,5 @@
-﻿namespace TestLP;
+﻿namespace LP.Core;
+
 
 public class Calculator
 {

@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Allure
+allure-results/
+
+# IntelliJ
+.idea/**

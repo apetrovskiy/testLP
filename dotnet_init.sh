@@ -37,7 +37,7 @@ dotnet add "${TEST_PRJ_FOLDER}" package NUnit3TestAdapter
 dotnet add "${TEST_PRJ_FOLDER}" package Allure.Commons
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow
-dotnet add "${TEST_PRJ_FOLDER}" package Allure.SpecFlow
+dotnet add "${TEST_PRJ_FOLDER}" package Allure.SpecFlow --prerelease
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit
 dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
 dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
@@ -63,6 +63,8 @@ mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
 
 dotnet clean
 dotnet restore
+# from here: dotnet tool install dotnet-format --version "7.*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json
+dotnet tool restore
 dotnet format
 dotnet build
 dotnet test
