@@ -10,10 +10,10 @@
         }
     },
     "bindingCulture": {
-        "name": "en-us"
+        "name": "en-US"
     },
     "language": {
-        "feature": "en-us"
+        "feature": "en-US"
     },
     "stepAssemblies": [
         {

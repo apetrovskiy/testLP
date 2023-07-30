@@ -1,5 +1,8 @@
-﻿namespace LP.Tests.Specs.Hooks;
+﻿// <copyright file="Hooks.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
+namespace LP.Tests.Specs.Hooks;
 
 // using Microsoft.Extensions.Hosting;
 // using SpecFlowCalculatorAPI;
@@ -9,7 +12,6 @@ using TechTalk.SpecFlow;
 public sealed class Hooks
 {
     // private static IHost _host;
-
     [BeforeTestRun]
     public static void BeforeTestRun()
     {
@@ -24,4 +26,3 @@ public sealed class Hooks
         // _host.StopAsync().Wait();
     }
 }
-

@@ -1,61 +1,64 @@
-﻿namespace LP.Tests.Specs.Steps;
+﻿// <copyright file="CalculatorStepDefinitions.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace LP.Tests.Specs.Steps;
 
 using System.Threading.Tasks;
 using FluentAssertions;
 using LP.Tests.Specs.API;
-
 using TechTalk.SpecFlow;
 
 [Binding]
 public sealed class CalculatorStepDefinitions
 {
-    private readonly CalculatorApi _calculator;
-    private int _result;
+    private readonly CalculatorApi calculator;
+    private int result;
 
     public CalculatorStepDefinitions(CalculatorApi calculator)
     {
-        _calculator = calculator;
+        this.calculator = calculator;
     }
 
     [Given("the first number is (.*)")]
     public void GivenTheFirstNumberIs(int number)
     {
-        _calculator.FirstNumber = number;
+        this.calculator.FirstNumber = number;
     }
 
     [Given("the second number is (.*)")]
     public void GivenTheSecondNumberIs(int number)
     {
-        _calculator.SecondNumber = number;
+        this.calculator.SecondNumber = number;
     }
 
     [When("the two numbers are added")]
     public async Task WhenTheTwoNumbersAreAddedAsync()
     {
-        _result = await _calculator.AddAsync();
+        this.result = await this.calculator.AddAsync();
     }
 
     [When(@"the two numbers are subtracted")]
     public async Task WhenTheTwoNumbersAreSubtractedAsync()
     {
-        _result = await _calculator.SubtractAsync();
+        this.result = await this.calculator.SubtractAsync();
     }
 
     [When(@"the two numbers are divided")]
     public async Task WhenTheTwoNumbersAreDividedAsync()
     {
-        _result = await _calculator.DivideAsync();
+        this.result = await this.calculator.DivideAsync();
     }
 
     [When(@"the two numbers are multiplied")]
     public async Task WhenTheTwoNumbersAreMultiplied()
     {
-        _result = await _calculator.MultiplyAsync();
+        this.result = await this.calculator.MultiplyAsync();
     }
 
     [Then("the result should be (.*)")]
     public void ThenTheResultShouldBe(int result)
     {
-        _result.Should().Be(result);
+        this.result.Should().Be(result);
     }
 }

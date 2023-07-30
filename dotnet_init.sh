@@ -28,6 +28,11 @@ dotnet add "${TEST_PRJ_FILE}" reference "${MAIN_PRJ_FILE}"
 rm -f "${TEST_PRJ_FOLDER}/Class1.cs"
 rm -f "${MAIN_PRJ_FOLDER}/Class1.cs"
 
+# formatting
+dotnet add "${MAIN_PRJ_FOLDER}" package Stylecop.Analyzers
+dotnet add "${TEST_PRJ_FOLDER}" package Stylecop.Analyzers
+
+# testing
 dotnet add "${TEST_PRJ_FOLDER}" package Microsoft.NET.Test.Sdk
 dotnet add "${TEST_PRJ_FOLDER}" package coverlet.collector
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit
@@ -39,8 +44,14 @@ dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow
 dotnet add "${TEST_PRJ_FOLDER}" package Allure.SpecFlow --prerelease
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit
-dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
+# experimentally
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit.Runners
+#
 dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
+
+# web
+dotnet add "${MAIN_PRJ_FOLDER}" package Selenium.WebDriver
+dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
 
 ##########
 # dotnet add "${TEST_PRJ_FOLDER}" package Swashbuckle.AspNetCore
