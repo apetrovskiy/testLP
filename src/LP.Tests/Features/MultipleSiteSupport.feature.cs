@@ -20,22 +20,23 @@ namespace LP.Tests.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Sample")]
-    public partial class SampleFeature
+    [NUnit.Framework.DescriptionAttribute("Multiple site support")]
+    public partial class MultipleSiteSupportFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "Sample.feature"
+#line 1 "MultipleSiteSupport.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Sample", "    Simple calculator for adding two numbers", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Multiple site support", "    Only blog owners can post to a blog, except administrators,\n    who can post " +
+                    "to all blogs.", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -73,48 +74,31 @@ namespace LP.Tests.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
-        public void AddTwoNumbers()
+        public virtual void FeatureBackground()
         {
-            string[] tagsOfScenario = new string[] {
-                    "mytag"};
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 5
-    this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
+    #line hidden
 #line 6
-        testRunner.Given("the first number is 50", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given("a global administrator named \"Greg\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
-        testRunner.And("the second number is 70", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+        testRunner.And("a blog named \"Greg\'s anti-tax rants\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 8
-        testRunner.When("the two numbers are added", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.And("a customer named \"Dr. Bill\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 9
-        testRunner.Then("the result should be 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.And("a blog named \"Expensive Therapy\" owned by \"Dr. Bill\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            }
-            this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("aaa")]
-        public void Aaa()
+        [NUnit.Framework.DescriptionAttribute("Dr. Bill posts to his own blog")]
+        public void Dr_BillPostsToHisOwnBlog()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("aaa", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Dr. Bill posts to his own blog", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 11
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -125,22 +109,30 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
+#line 5
+    this.FeatureBackground();
+#line hidden
 #line 12
-        testRunner.Given("a blog post named \"Random\" with Markdown body", "Some Title, Eh?\n===============\nHere is the first paragraph of my blog post. Lore" +
-                        "m ipsum dolor sit amet,\nconsectetur adipiscing elit.", ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given("I am logged in as Dr. Bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 13
+        testRunner.When("I try to post to \"Expensive Therapy\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 14
+        testRunner.Then("I should see \"Your article was published.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("bbb")]
-        public void Bbb()
+        [NUnit.Framework.DescriptionAttribute("Dr. Bill tries to post to somebody else\'s blog, and fails")]
+        public void Dr_BillTriesToPostToSomebodyElsesBlogAndFails()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("bbb", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 20
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Dr. Bill tries to post to somebody else\'s blog, and fails", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 16
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -150,37 +142,30 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                            "name",
-                            "email",
-                            "twitter"});
-                table1.AddRow(new string[] {
-                            "Aslak",
-                            "aslak@cucumber.io",
-                            "@aslak_hellesoy"});
-                table1.AddRow(new string[] {
-                            "Julien",
-                            "julien@cucumber.io",
-                            "@jbpros"});
-                table1.AddRow(new string[] {
-                            "Matt",
-                            "matt@cucumber.io",
-                            "@mattwynne"});
+#line 5
+    this.FeatureBackground();
+#line hidden
+#line 17
+        testRunner.Given("I am logged in as Dr. Bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 18
+        testRunner.When("I try to post to \"Greg\'s anti-tax rants\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 19
+        testRunner.Then("I should see \"Hey! That\'s not your blog!\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Greg posts to a client\'s blog")]
+        public void GregPostsToAClientsBlog()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Greg posts to a client\'s blog", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 21
-        testRunner.Given("the following users exist:", ((string)(null)), table1, "Given ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("ccc")]
-        public void Ccc()
-        {
-            string[] tagsOfScenario = ((string[])(null));
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("ccc", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 27
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -190,14 +175,17 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
-#line 28
-        testRunner.When("I have 42 cucumbers in my belly", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 5
+    this.FeatureBackground();
 #line hidden
-#line 29
-        testRunner.When("I have 1 cucumber in my belly", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 22
+        testRunner.Given("I am logged in as Greg", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 30
-        testRunner.When("I have 8 cucumbers in my tummy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 23
+        testRunner.When("I try to post to \"Expensive Therapy\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 24
+        testRunner.Then("I should see \"Your article was published.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
