@@ -1,0 +1,248 @@
+{
+  "uid" : "51480e6a3772aeab",
+  "name" : "Only One -- More than one alive",
+  "fullName" : "Only One -- More than one alive",
+  "historyId" : "Only One -- More than one alive",
+  "time" : {
+    "start" : 1690713224321,
+    "stop" : 1690713224404,
+    "duration" : 83
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224321,
+      "stop" : 1690713224321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224321,
+      "stop" : 1690713224321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690713224123,
+      "stop" : 1690713224123,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  there are 3 ninjas",
+      "time" : {
+        "start" : 1690713224321,
+        "stop" : 1690713224328,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  there are more than one ninja alive",
+      "time" : {
+        "start" : 1690713224328,
+        "stop" : 1690713224335,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  2 ninjas meet, they will fight",
+      "time" : {
+        "start" : 1690713224335,
+        "stop" : 1690713224341,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  one ninja dies (but not me)",
+      "time" : {
+        "start" : 1690713224341,
+        "stop" : 1690713224355,
+        "duration" : 14
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  there is one ninja less alive",
+      "time" : {
+        "start" : 1690713224355,
+        "stop" : 1690713224370,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az363-581"
+  }, {
+    "name" : "feature",
+    "value" : "Highlander"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "577038b32fba358f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/577038b32fba358f",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712667590,
+          "stop" : 1690712667662,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "45e54c366c12c32e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/45e54c366c12c32e",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712635667,
+          "stop" : 1690712635740,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "cddbe691ca8dbafc",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/19//#testresult/cddbe691ca8dbafc",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690711612472,
+          "stop" : 1690711612538,
+          "duration" : 66
+        }
+      }, {
+        "uid" : "391ad2787c674d32",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/18//#testresult/391ad2787c674d32",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690710956965,
+          "stop" : 1690710957027,
+          "duration" : 62
+        }
+      }, {
+        "uid" : "7c143e55edd06ff6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/7c143e55edd06ff6",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709476079,
+          "stop" : 1690709476184,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "7fb0ad2fd8449610",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/7fb0ad2fd8449610",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709217119,
+          "stop" : 1690709217199,
+          "duration" : 80
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "51480e6a3772aeab.json",
+  "parameterValues" : [ ]
+}

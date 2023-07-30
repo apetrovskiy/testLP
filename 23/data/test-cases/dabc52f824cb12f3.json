@@ -1,0 +1,257 @@
+{
+  "uid" : "dabc52f824cb12f3",
+  "name" : "Add two numbers",
+  "fullName" : "Add two numbers",
+  "historyId" : "Add two numbers",
+  "time" : {
+    "start" : 1690713224769,
+    "stop" : 1690713224773,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "statusMessage" : "Connection refused (localhost:5001) -> Connection refused",
+  "statusTrace" : "System.Net.Http.HttpRequestException: Connection refused (localhost:5001)\n ---> System.Net.Sockets.SocketException (111): Connection refused\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at RestSharp.ResponseThrowExtension.ThrowIfError[T](RestResponse`1 response)\n   at RestSharp.RestClientExtensions.GetAsync[T](IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at LP.Tests.Specs.API.CalculatorApi.AddAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/API/CalculatorApi.cs:line 31\n   at LP.Tests.Specs.Steps.CalculatorStepDefinitions.WhenTheTwoNumbersAreAddedAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/Steps/CalculatorStepDefinitions.cs:line 38\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.<>c__DisplayClass2_0.<<InvokeBindingDelegateAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224769,
+      "stop" : 1690713224769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224769,
+      "stop" : 1690713224769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690713224768,
+      "stop" : 1690713224768,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Connection refused (localhost:5001) -> Connection refused",
+    "statusTrace" : "System.Net.Http.HttpRequestException: Connection refused (localhost:5001)\n ---> System.Net.Sockets.SocketException (111): Connection refused\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at RestSharp.ResponseThrowExtension.ThrowIfError[T](RestResponse`1 response)\n   at RestSharp.RestClientExtensions.GetAsync[T](IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at LP.Tests.Specs.API.CalculatorApi.AddAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/API/CalculatorApi.cs:line 31\n   at LP.Tests.Specs.Steps.CalculatorStepDefinitions.WhenTheTwoNumbersAreAddedAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/Steps/CalculatorStepDefinitions.cs:line 38\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.<>c__DisplayClass2_0.<<InvokeBindingDelegateAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+    "steps" : [ {
+      "name" : "Given  the first number is 50",
+      "time" : {
+        "start" : 1690713224769,
+        "stop" : 1690713224769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the second number is 70",
+      "time" : {
+        "start" : 1690713224769,
+        "stop" : 1690713224769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the two numbers are added",
+      "time" : {
+        "start" : 1690713224769,
+        "stop" : 1690713224772,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the result should be 120",
+      "time" : {
+        "start" : 1690713224772,
+        "stop" : 1690713224772,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az363-581"
+  }, {
+    "name" : "feature",
+    "value" : "Sample"
+  }, {
+    "name" : "tag",
+    "value" : "mytag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60019f102de0fdba",
+      "status" : "failed",
+      "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+      "time" : {
+        "start" : 1690713223641,
+        "stop" : 1690713223963,
+        "duration" : 322
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "7ff53faacbd2a5c3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/7ff53faacbd2a5c3",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690712668046,
+          "stop" : 1690712668050,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "5e16a0856900dd16",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/5e16a0856900dd16",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690712636270,
+          "stop" : 1690712636274,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "bf122ecdedcbb62f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/19//#testresult/bf122ecdedcbb62f",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690711612901,
+          "stop" : 1690711612905,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "9f23bbd3f59e7e68",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/18//#testresult/9f23bbd3f59e7e68",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690710957388,
+          "stop" : 1690710957392,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "fb07d428c30a2b06",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/fb07d428c30a2b06",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690709476576,
+          "stop" : 1690709476581,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "4564db20ac8c7de6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/4564db20ac8c7de6",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690709217755,
+          "stop" : 1690709217759,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "7472ae199e5e8ab7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/15//#testresult/7472ae199e5e8ab7",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690705495108,
+          "stop" : 1690705495111,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ "mytag" ]
+  },
+  "source" : "dabc52f824cb12f3.json",
+  "parameterValues" : [ ]
+}

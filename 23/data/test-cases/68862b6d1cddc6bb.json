@@ -1,0 +1,197 @@
+{
+  "uid" : "68862b6d1cddc6bb",
+  "name" : "Maker starts a game",
+  "fullName" : "Maker starts a game",
+  "historyId" : "Maker starts a game",
+  "time" : {
+    "start" : 1690713224119,
+    "stop" : 1690713224121,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224119,
+      "stop" : 1690713224119,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690713224119,
+      "stop" : 1690713224119,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690713224034,
+      "stop" : 1690713224034,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  the Maker starts a game",
+      "time" : {
+        "start" : 1690713224120,
+        "stop" : 1690713224120,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the Maker waits for a Breaker to join",
+      "time" : {
+        "start" : 1690713224120,
+        "stop" : 1690713224121,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az363-581"
+  }, {
+    "name" : "feature",
+    "value" : "Guess the word"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "79bf4bcb648ebaaf",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/79bf4bcb648ebaaf",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712667344,
+          "stop" : 1690712667385,
+          "duration" : 41
+        }
+      }, {
+        "uid" : "92e9e4265c525dbf",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/92e9e4265c525dbf",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712635365,
+          "stop" : 1690712635422,
+          "duration" : 57
+        }
+      }, {
+        "uid" : "ee20938041b379a8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/19//#testresult/ee20938041b379a8",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690711612260,
+          "stop" : 1690711612301,
+          "duration" : 41
+        }
+      }, {
+        "uid" : "8cbb2c4f85c19bec",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/18//#testresult/8cbb2c4f85c19bec",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690710956759,
+          "stop" : 1690710956798,
+          "duration" : 39
+        }
+      }, {
+        "uid" : "12898e13f61156c2",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/12898e13f61156c2",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709475805,
+          "stop" : 1690709475845,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "4ed8761ddf50365b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/4ed8761ddf50365b",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709216889,
+          "stop" : 1690709216920,
+          "duration" : 31
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "68862b6d1cddc6bb.json",
+  "parameterValues" : [ ]
+}
