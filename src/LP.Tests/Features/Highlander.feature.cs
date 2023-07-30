@@ -153,6 +153,9 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
+#line 21
+            testRunner.Given("something is here", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

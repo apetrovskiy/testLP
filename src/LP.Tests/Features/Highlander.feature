@@ -18,7 +18,7 @@ Feature: Highlander
     Rule: There can be Two (in some cases)
 
         Scenario: Two -- Dead and Reborn as Phoenix
-        #
+            Given something is here
 
         Scenario: Multiple Givens
             Given one thing
