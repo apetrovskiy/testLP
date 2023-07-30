@@ -1,4 +1,4 @@
-// <copyright file="GuessTheWordSteps.cs" company="PlaceholderCompany">
+﻿// <copyright file="GuessTheWordSteps.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
@@ -6,6 +6,7 @@ namespace LP.Tests.Steps;
 
 using TechTalk.SpecFlow;
 
+[Binding]
 public class GuessTheWordSteps
 {
     private string word;
