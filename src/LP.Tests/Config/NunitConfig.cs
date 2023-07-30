@@ -1,10 +1,8 @@
-﻿
-
-// dotnet format cannot remove these lines
+﻿// <copyright file="NunitConfig.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace LP.Tests.Config;
-
-// dotnet format cannot remove these lines
 
 using NUnit.Framework;
 
@@ -13,6 +11,6 @@ public class NunitConfig
     [OneTimeSetUp]
     public void Init()
     {
-        Environment.CurrentDirectory = Path.GetDirectoryName(GetType().Assembly.Location);
+        Environment.CurrentDirectory = Path.GetDirectoryName(this.GetType().Assembly.Location);
     }
 }

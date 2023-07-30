@@ -1,9 +1,10 @@
-﻿namespace LP.Tests.Steps;
+﻿// <copyright file="CallingStepsFromStepDefinitionSteps.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
+namespace LP.Tests.Steps;
 
 using TechTalk.SpecFlow;
-
-
 
 [Binding]
 public class CallingStepsFromStepDefinitionSteps : Steps
@@ -23,8 +24,7 @@ public class CallingStepsFromStepDefinitionSteps : Steps
     [Given(@"(.*) is logged in")]
     public void GivenIsLoggedIn(string name)
     {
-        Given(string.Format("the user {0} exists", name));
-        Given(string.Format("I log in as {0}", name));
+        this.Given(string.Format("the user {0} exists", name));
+        this.Given(string.Format("I log in as {0}", name));
     }
 }
-

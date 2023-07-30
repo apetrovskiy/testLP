@@ -1,5 +1,8 @@
-﻿namespace LP.Core;
+﻿// <copyright file="Calculator.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
+namespace LP.Core;
 
 public class Calculator
 {
@@ -9,28 +12,28 @@ public class Calculator
 
     public int Add()
     {
-        return FirstNumber + SecondNumber;
+        return this.FirstNumber + this.SecondNumber;
     }
 
     public int Subtract()
     {
-        return FirstNumber - SecondNumber;
+        return this.FirstNumber - this.SecondNumber;
     }
 
     public int Divide()
     {
-        if (FirstNumber == 0 || SecondNumber == 0)
+        if (this.FirstNumber == 0 || this.SecondNumber == 0)
         {
             return 0;
         }
         else
         {
-            return FirstNumber / SecondNumber;
+            return this.FirstNumber / this.SecondNumber;
         }
     }
 
     public int Multiply()
     {
-        return FirstNumber * SecondNumber;
+        return this.FirstNumber * this.SecondNumber;
     }
 }
