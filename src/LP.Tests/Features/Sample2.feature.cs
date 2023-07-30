@@ -104,6 +104,27 @@ namespace LP.Tests.Features
 #line 9
         testRunner.Then("the result should be 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Table data")]
+        public void TableData()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Table data", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 11
+    this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
                 TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "Author",
                             "Title"});
@@ -113,7 +134,7 @@ namespace LP.Tests.Features
                 table2.AddRow(new string[] {
                             "Gojko Adzic",
                             "Bridging the Communication Gap"});
-#line 11
+#line 12
         testRunner.Given("the following books", ((string)(null)), table2, "Given ");
 #line hidden
             }

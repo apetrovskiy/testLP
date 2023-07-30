@@ -7,7 +7,6 @@ namespace LP.Tests.Specs.Steps;
 using System.Threading.Tasks;
 using FluentAssertions;
 using LP.Tests.Specs.API;
-
 using TechTalk.SpecFlow;
 
 [Binding]

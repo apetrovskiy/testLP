@@ -8,6 +8,7 @@ Feature: Sample 2
         When the two numbers are added
         Then the result should be 120
 
+    Scenario: Table data
         Given the following books
             | Author        | Title                          |
             | Martin Fowler | Analysis Patterns              |
