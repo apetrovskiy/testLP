@@ -1,10 +1,10 @@
 ﻿
 
-
+// dotnet format cannot remove these lines
 
 namespace LP.Tests.Config;
 
-
+// dotnet format cannot remove these lines
 
 using NUnit.Framework;
 
