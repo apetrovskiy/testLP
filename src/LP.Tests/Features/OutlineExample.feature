@@ -1,4 +1,4 @@
-Feature: Outlint example
+Feature: Outline example
     Scenario Outline: eating
         Given there are <start> cucumbers
         When I eat <eat> cucumbers
