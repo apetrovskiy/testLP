@@ -39,7 +39,7 @@ public class GuessTheWordSteps
         this.isBreakerJoined = true;
     }
 
-    [Then("the Breaker must guess a word with {int} characters")]
+    [Then("the Breaker must guess a word with (.*) characters")]
     public void ThenTheBreakerMustGuessWordWithCharacters(int numberOfCharacters)
     {
         this.wordLength = numberOfCharacters;
