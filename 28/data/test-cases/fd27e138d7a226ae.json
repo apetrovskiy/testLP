@@ -1,0 +1,328 @@
+{
+  "uid" : "fd27e138d7a226ae",
+  "name" : "Dr. Bill posts to his own blog",
+  "fullName" : "Dr. Bill posts to his own blog",
+  "historyId" : "Dr. Bill posts to his own blog",
+  "time" : {
+    "start" : 1690716055466,
+    "stop" : 1690716055576,
+    "duration" : 110
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690716055466,
+      "stop" : 1690716055466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690716055466,
+      "stop" : 1690716055466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690716055465,
+      "stop" : 1690716055465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  a global administrator named \"Greg\"",
+      "time" : {
+        "start" : 1690716055466,
+        "stop" : 1690716055475,
+        "duration" : 9
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  a blog named \"Greg's anti-tax rants\"",
+      "time" : {
+        "start" : 1690716055475,
+        "stop" : 1690716055482,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  a customer named \"Dr. Bill\"",
+      "time" : {
+        "start" : 1690716055482,
+        "stop" : 1690716055489,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  a blog named \"Expensive Therapy\" owned by \"Dr. Bill\"",
+      "time" : {
+        "start" : 1690716055489,
+        "stop" : 1690716055496,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given  I am logged in as Dr. Bill",
+      "time" : {
+        "start" : 1690716055496,
+        "stop" : 1690716055503,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I try to post to \"Expensive Therapy\"",
+      "time" : {
+        "start" : 1690716055503,
+        "stop" : 1690716055510,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I should see \"Your article was published.\"",
+      "time" : {
+        "start" : 1690716055510,
+        "stop" : 1690716055517,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az358-150"
+  }, {
+    "name" : "feature",
+    "value" : "Multiple site support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 12,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "69d7fe259090e6a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/26//#testresult/69d7fe259090e6a",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690714978872,
+          "stop" : 1690714978988,
+          "duration" : 116
+        }
+      }, {
+        "uid" : "94d7e034c1762dfa",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/27//#testresult/94d7e034c1762dfa",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690714947530,
+          "stop" : 1690714947638,
+          "duration" : 108
+        }
+      }, {
+        "uid" : "2bc03a4e50abd26f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/25//#testresult/2bc03a4e50abd26f",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690713693156,
+          "stop" : 1690713693295,
+          "duration" : 139
+        }
+      }, {
+        "uid" : "79aa0c5f011f68a3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/24//#testresult/79aa0c5f011f68a3",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690713687785,
+          "stop" : 1690713687884,
+          "duration" : 99
+        }
+      }, {
+        "uid" : "ccd5e59760e77259",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/23//#testresult/ccd5e59760e77259",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690713224435,
+          "stop" : 1690713224545,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "5c26abf12d0130a5",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/5c26abf12d0130a5",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712667694,
+          "stop" : 1690712667799,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "cb6a78a637aeb799",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/cb6a78a637aeb799",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690712635784,
+          "stop" : 1690712635888,
+          "duration" : 104
+        }
+      }, {
+        "uid" : "3db783888de9da4f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/19//#testresult/3db783888de9da4f",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690711612577,
+          "stop" : 1690711612667,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "a44d9ae9be973e3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/18//#testresult/a44d9ae9be973e3",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690710957065,
+          "stop" : 1690710957163,
+          "duration" : 98
+        }
+      }, {
+        "uid" : "f08586f470cd2b7f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/f08586f470cd2b7f",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709476224,
+          "stop" : 1690709476319,
+          "duration" : 95
+        }
+      }, {
+        "uid" : "49354c736eb4d3df",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/49354c736eb4d3df",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709217235,
+          "stop" : 1690709217365,
+          "duration" : 130
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd27e138d7a226ae.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,227 @@
+{
+  "uid" : "7fd39b2a3d8e88db",
+  "name" : "Two -- Dead and Reborn as Phoenix",
+  "fullName" : "Two -- Dead and Reborn as Phoenix",
+  "historyId" : "Two -- Dead and Reborn as Phoenix",
+  "time" : {
+    "start" : 1690716055447,
+    "stop" : 1690716055463,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690716055446,
+      "stop" : 1690716055447,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690716055447,
+      "stop" : 1690716055447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690716055075,
+      "stop" : 1690716055075,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  something is here",
+      "time" : {
+        "start" : 1690716055447,
+        "stop" : 1690716055455,
+        "duration" : 8
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az358-150"
+  }, {
+    "name" : "feature",
+    "value" : "Highlander"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "31456c6a9f9cf119",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/26//#testresult/31456c6a9f9cf119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690714978868,
+          "stop" : 1690714978868,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "53b8336aabc31c3b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/27//#testresult/53b8336aabc31c3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690714947527,
+          "stop" : 1690714947527,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ffc6e4b5ee50eed1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/25//#testresult/ffc6e4b5ee50eed1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690713693151,
+          "stop" : 1690713693151,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "72f765ee2a0e33c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/24//#testresult/72f765ee2a0e33c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690713687782,
+          "stop" : 1690713687782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f2b630a40913afa7",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/23//#testresult/f2b630a40913afa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690713224433,
+          "stop" : 1690713224433,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bbfe1b9fe570d90b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/bbfe1b9fe570d90b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690712667691,
+          "stop" : 1690712667691,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d86b91d9f244f986",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/d86b91d9f244f986",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690712635781,
+          "stop" : 1690712635781,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "84ef6f71bd918395",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/19//#testresult/84ef6f71bd918395",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690711612574,
+          "stop" : 1690711612574,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e19cd541b735cdcb",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/18//#testresult/e19cd541b735cdcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690710957062,
+          "stop" : 1690710957062,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e23db8596898d9c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/4e23db8596898d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690709476221,
+          "stop" : 1690709476221,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "99d76d5b59d3146f",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/99d76d5b59d3146f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690709217231,
+          "stop" : 1690709217231,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7fd39b2a3d8e88db.json",
+  "parameterValues" : [ ]
+}
