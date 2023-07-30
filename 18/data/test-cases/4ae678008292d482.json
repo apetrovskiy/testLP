@@ -1,0 +1,223 @@
+{
+  "uid" : "4ae678008292d482",
+  "name" : "Multiple Givens",
+  "fullName" : "Multiple Givens",
+  "historyId" : "Multiple Givens",
+  "time" : {
+    "start" : 1690710956885,
+    "stop" : 1690710956964,
+    "duration" : 79
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690710956885,
+      "stop" : 1690710956885,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690710956885,
+      "stop" : 1690710956885,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690710956799,
+      "stop" : 1690710956799,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  one thing",
+      "time" : {
+        "start" : 1690710956885,
+        "stop" : 1690710956891,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  another thing",
+      "time" : {
+        "start" : 1690710956891,
+        "stop" : 1690710956898,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  yet another thing",
+      "time" : {
+        "start" : 1690710956898,
+        "stop" : 1690710956904,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I open my eyes",
+      "time" : {
+        "start" : 1690710956904,
+        "stop" : 1690710956910,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see something",
+      "time" : {
+        "start" : 1690710956910,
+        "stop" : 1690710956917,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "But  I shouldn't see something else",
+      "time" : {
+        "start" : 1690710956917,
+        "stop" : 1690710956923,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az363-581"
+  }, {
+    "name" : "feature",
+    "value" : "Highlander"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8beca9920984dd96",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/8beca9920984dd96",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709475960,
+          "stop" : 1690709476066,
+          "duration" : 106
+        }
+      }, {
+        "uid" : "a810aa644680025a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/a810aa644680025a",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709217023,
+          "stop" : 1690709217117,
+          "duration" : 94
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4ae678008292d482.json",
+  "parameterValues" : [ ]
+}

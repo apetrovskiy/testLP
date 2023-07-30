@@ -1,0 +1,227 @@
+{
+  "uid" : "9e440390347aaca0",
+  "name" : "Add two numbers 2",
+  "fullName" : "Add two numbers 2",
+  "historyId" : "Add two numbers 2",
+  "time" : {
+    "start" : 1690710957354,
+    "stop" : 1690710957375,
+    "duration" : 21
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690710957354,
+      "stop" : 1690710957354,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690710957354,
+      "stop" : 1690710957354,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690710957353,
+      "stop" : 1690710957353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  the first number is 50",
+      "time" : {
+        "start" : 1690710957354,
+        "stop" : 1690710957354,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the second number is 70",
+      "time" : {
+        "start" : 1690710957354,
+        "stop" : 1690710957354,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the two numbers are added",
+      "time" : {
+        "start" : 1690710957354,
+        "stop" : 1690710957356,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the result should be 120",
+      "time" : {
+        "start" : 1690710957357,
+        "stop" : 1690710957357,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  the following books",
+      "time" : {
+        "start" : 1690710957359,
+        "stop" : 1690710957374,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9477f21ae4f1c26",
+        "name" : "table",
+        "source" : "d9477f21ae4f1c26.csv",
+        "type" : "text/csv",
+        "size" : 94
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az363-581"
+  }, {
+    "name" : "feature",
+    "value" : "Sample 2"
+  }, {
+    "name" : "tag",
+    "value" : "mytag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "65a68df2eac53b39",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/17//#testresult/65a68df2eac53b39",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709476542,
+          "stop" : 1690709476565,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "6ab43dcce661a361",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/16//#testresult/6ab43dcce661a361",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690709217709,
+          "stop" : 1690709217735,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "ad2e0b34bb6e831c",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/15//#testresult/ad2e0b34bb6e831c",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690705495101,
+          "stop" : 1690705495105,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ "mytag" ]
+  },
+  "source" : "9e440390347aaca0.json",
+  "parameterValues" : [ ]
+}
