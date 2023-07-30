@@ -1,0 +1,123 @@
+{
+  "uid" : "1af30ce7b37636b0",
+  "name" : "Table data",
+  "fullName" : "Table data",
+  "historyId" : "Table data",
+  "time" : {
+    "start" : 1690712636240,
+    "stop" : 1690712636267,
+    "duration" : 27
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690712636240,
+      "stop" : 1690712636240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690712636240,
+      "stop" : 1690712636240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690712636231,
+      "stop" : 1690712636231,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  the following books",
+      "time" : {
+        "start" : 1690712636243,
+        "stop" : 1690712636260,
+        "duration" : 17
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6e8b27e0fdec33d",
+        "name" : "table",
+        "source" : "e6e8b27e0fdec33d.csv",
+        "type" : "text/csv",
+        "size" : 94
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az301-386"
+  }, {
+    "name" : "feature",
+    "value" : "Sample 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1af30ce7b37636b0.json",
+  "parameterValues" : [ ]
+}
