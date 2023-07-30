@@ -36,11 +36,11 @@ dotnet add "${TEST_PRJ_FOLDER}" package NUnit3TestAdapter
 # dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure.Steps
 dotnet add "${TEST_PRJ_FOLDER}" package Allure.Commons
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
-dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow --prerelease
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow
 dotnet add "${TEST_PRJ_FOLDER}" package Allure.SpecFlow --prerelease
-dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit --prerelease
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit
 # experimentally
-dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit.Runners --prerelease
+dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit.Runners
 #
 dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
 dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
