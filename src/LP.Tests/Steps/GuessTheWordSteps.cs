@@ -15,7 +15,7 @@ public class GuessTheWordSteps
     private bool waitForBreaker;
     private bool isBreakerJoined;
 
-    [Given($"the Maker has started a game with the word \"silky\"")]
+    [Given("the Maker has started a game with the word '(.*)'")]
     public void GivenTheMakerHasStartedGameWithTheWord(string word)
     {
         this.word = word;

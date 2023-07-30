@@ -120,7 +120,7 @@ namespace LP.Tests.Features
             {
                 this.ScenarioStart();
 #line 15
-        testRunner.Given("the Maker has started a game with the word \"silky\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given("the Maker has started a game with the word \'silky\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 16
         testRunner.When("the Breaker joins the Maker\'s game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
