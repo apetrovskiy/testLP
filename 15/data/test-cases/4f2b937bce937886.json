@@ -1,0 +1,122 @@
+{
+  "uid" : "4f2b937bce937886",
+  "name" : "Multiply two numbers",
+  "fullName" : "Multiply two numbers",
+  "historyId" : "Multiply two numbers",
+  "time" : {
+    "start" : 1690705495052,
+    "stop" : 1690705495058,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "Connection refused (localhost:5001) -> Connection refused",
+  "statusTrace" : "System.Net.Http.HttpRequestException: Connection refused (localhost:5001)\n ---> System.Net.Sockets.SocketException (111): Connection refused\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at RestSharp.ResponseThrowExtension.ThrowIfError[T](RestResponse`1 response)\n   at RestSharp.RestClientExtensions.GetAsync[T](IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at LP.Tests.Specs.API.CalculatorApi.MultiplyAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/API/CalculatorApi.cs:line 47\n   at LP.Tests.Specs.Steps.CalculatorStepDefinitions.WhenTheTwoNumbersAreMultiplied() in /home/runner/work/testLP/testLP/src/LP.Tests/Steps/CalculatorStepDefinitions.cs:line 53\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.<>c__DisplayClass2_0.<<InvokeBindingDelegateAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Connection refused (localhost:5001) -> Connection refused",
+    "statusTrace" : "System.Net.Http.HttpRequestException: Connection refused (localhost:5001)\n ---> System.Net.Sockets.SocketException (111): Connection refused\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|281_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at RestSharp.ResponseThrowExtension.ThrowIfError[T](RestResponse`1 response)\n   at RestSharp.RestClientExtensions.GetAsync[T](IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at LP.Tests.Specs.API.CalculatorApi.MultiplyAsync() in /home/runner/work/testLP/testLP/src/LP.Tests/API/CalculatorApi.cs:line 47\n   at LP.Tests.Specs.Steps.CalculatorStepDefinitions.WhenTheTwoNumbersAreMultiplied() in /home/runner/work/testLP/testLP/src/LP.Tests/Steps/CalculatorStepDefinitions.cs:line 53\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.<>c__DisplayClass2_0.<<InvokeBindingDelegateAsync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()\n   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)",
+    "steps" : [ {
+      "name" : "Given  the first number is 5",
+      "time" : {
+        "start" : 1690705495052,
+        "stop" : 1690705495053,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the second number is 50",
+      "time" : {
+        "start" : 1690705495053,
+        "stop" : 1690705495053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the two numbers are multiplied",
+      "time" : {
+        "start" : 1690705495053,
+        "stop" : 1690705495056,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the result should be 250",
+      "time" : {
+        "start" : 1690705495057,
+        "stop" : 1690705495057,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az400-735"
+  }, {
+    "name" : "feature",
+    "value" : "Calculator"
+  }, {
+    "name" : "tag",
+    "value" : "Multiply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Multiply" ]
+  },
+  "source" : "4f2b937bce937886.json",
+  "parameterValues" : [ ]
+}
