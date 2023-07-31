@@ -41,8 +41,10 @@ dotnet add "${TEST_PRJ_FOLDER}" package Microsoft.NET.Test.Sdk
 dotnet add "${TEST_PRJ_FOLDER}" package coverlet.collector
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit3TestAdapter
-# dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure
-# dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure.Steps
+# temporary
+dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure
+dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Allure.Steps
+#
 dotnet add "${TEST_PRJ_FOLDER}" package Allure.Commons
 dotnet add "${TEST_PRJ_FOLDER}" package NUnit.Analyzers
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow

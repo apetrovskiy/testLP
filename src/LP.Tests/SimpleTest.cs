@@ -1,9 +1,11 @@
-// <copyright file="SimpleTest.cs" company="PlaceholderCompany">
+﻿// <copyright file="SimpleTest.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
 namespace LP.Tests;
 
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -11,6 +13,7 @@ using OpenQA.Selenium.Chrome;
 public class SimpleTest
 {
     [Test]
+    [AllureName("01")]
     public void Test01()
     {
         // Create a driver instance for chromedriver
