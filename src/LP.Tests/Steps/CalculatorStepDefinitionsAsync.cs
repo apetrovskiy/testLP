@@ -9,7 +9,7 @@ using FluentAssertions;
 using LP.Tests.Specs.API;
 using TechTalk.SpecFlow;
 
-[Binding]
+// [Binding]
 public sealed class CalculatorStepDefinitionsAsync
 {
     private readonly CalculatorApi calculator;
