@@ -1,0 +1,165 @@
+{
+  "uid" : "798e5c34783ed213",
+  "name" : "Add two numbers permutations",
+  "fullName" : "Add two numbers permutations",
+  "historyId" : "Add two numbers permutations1433619556",
+  "time" : {
+    "start" : 1690804719152,
+    "stop" : 1690804719152,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690804719152,
+      "stop" : 1690804719152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1690804719152,
+      "stop" : 1690804719152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1690804719138,
+      "stop" : 1690804719138,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  the first number is 6",
+      "time" : {
+        "start" : 1690804719152,
+        "stop" : 0,
+        "duration" : -1690804719152
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "And  the second number is 9",
+        "time" : {
+          "start" : 1690804719152,
+          "stop" : 0,
+          "duration" : -1690804719152
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "When  the two numbers are added",
+          "time" : {
+            "start" : 1690804719152,
+            "stop" : 0,
+            "duration" : -1690804719152
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "Then  the result should be 15",
+            "time" : {
+              "start" : 1690804719152,
+              "stop" : 0,
+              "duration" : -1690804719152
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1028-710"
+  }, {
+    "name" : "feature",
+    "value" : "calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Expected result",
+    "value" : "15"
+  }, {
+    "name" : "First number",
+    "value" : "6"
+  }, {
+    "name" : "Second number",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "798e5c34783ed213.json",
+  "parameterValues" : [ "15", "6", "9" ]
+}
