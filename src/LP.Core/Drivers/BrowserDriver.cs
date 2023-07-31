@@ -55,8 +55,15 @@ public class BrowserDriver : IDisposable
 
         var chromeOptions = new ChromeOptions();
 
-        var chromeDriver = new ChromeDriver(chromeDriverService, chromeOptions);
+        var chromeDriver = new ChromeDriver(chromeDriverService, this.BuildOption());
 
         return chromeDriver;
+    }
+
+    private ChromeOptions BuildOption()
+    {
+        var chromeOptions = new ChromeOptions();
+        chromeOptions.AddArguments("headless");
+        return chromeOptions;
     }
 }

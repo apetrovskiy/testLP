@@ -4,6 +4,7 @@
 
 namespace LP.Tests;
 
+using LP.Core.Drivers;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
@@ -25,7 +26,7 @@ public class SimpleTest
     public void Test01()
     {
         // Create a driver instance for chromedriver
-        IWebDriver driver = new ChromeDriver();
+        IWebDriver driver = new BrowserDriver().Current;
 
         // Navigate to google page
         driver.Navigate().GoToUrl("http:www.google.com");
@@ -48,7 +49,7 @@ public class SimpleTest
     [AllureName("02")]
     public void TestLoginOK()
     {
-        var driver = new ChromeDriver();
+        var driver = new BrowserDriver().Current;
         driver.Navigate().GoToUrl("http://travel.agileway.net");
         driver.FindElement(By.Name("username")).SendKeys("agileway");
         driver.FindElement(By.Name("password")).SendKeys("testwise");
