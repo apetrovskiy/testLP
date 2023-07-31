@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FULL_RESTORE=1
+FULL_RESTORE=0
 # 0 - runs code operations without the Internet
 # 1 - reloads packages
 
