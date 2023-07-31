@@ -10,6 +10,14 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+[TestFixture]
+[NUnit.Allure.Core.AllureNUnit]
+
+[AllureEpic("Unit testing in F#")]
+[AllureFeature("Parameterized tests")]
+[AllureStory("NUnit")]
+[AllureSuite("NUnit")]
+[AllureTag("NUnit")]
 public class SimpleTest
 {
     [Test]
