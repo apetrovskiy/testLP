@@ -1,5 +1,8 @@
 #!/bin/sh
-# Runs code operations without the Internet
+
+FULL_RESTORE=1
+# 0 - runs code operations without the Internet
+# 1 - reloads packages
 
 rm allure-results/* -y
 
@@ -73,8 +76,11 @@ tail -r "${TEST_PRJ_FILE}" | tail -n +3 | tail -r >"${TEST_PRJ_TMP_FILE}"
 echo "${ITEM_GROUP}" >>"${TEST_PRJ_TMP_FILE}"
 mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
 
-# dotnet clean
-# dotnet restore
+if [ "${FULL_RESTORE}" = 1 ]; then
+    echo "cleanin... ==========="
+    dotnet clean
+    dotnet restore
+fi
 # from here: dotnet tool install dotnet-format --version "7.*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json
 dotnet tool restore
 dotnet format
