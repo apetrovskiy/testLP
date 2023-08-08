@@ -1,0 +1,375 @@
+{
+  "uid" : "69d10216761faf72",
+  "name" : "Divide two numbers",
+  "fullName" : "Divide two numbers",
+  "historyId" : "Divide two numbers",
+  "time" : {
+    "start" : 1691504576469,
+    "stop" : 1691504576487,
+    "duration" : 18
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1691504576469,
+      "stop" : 1691504576469,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1691504576469,
+      "stop" : 1691504576469,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1691504571155,
+      "stop" : 1691504571156,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  the first number is 100",
+      "time" : {
+        "start" : 1691504576469,
+        "stop" : 1691504576479,
+        "duration" : 10
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the second number is 2",
+      "time" : {
+        "start" : 1691504576479,
+        "stop" : 1691504576479,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the two numbers are divided",
+      "time" : {
+        "start" : 1691504576479,
+        "stop" : 1691504576487,
+        "duration" : 8
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the result should be 50",
+      "time" : {
+        "start" : 1691504576487,
+        "stop" : 1691504576487,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az618-165"
+  }, {
+    "name" : "feature",
+    "value" : "Calculator API"
+  }, {
+    "name" : "tag",
+    "value" : "Divide"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 26
+      },
+      "items" : [ {
+        "uid" : "f86adf9a5792128e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/42//#testresult/f86adf9a5792128e",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1691416454150,
+          "stop" : 1691416454169,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "4fbe0b4d714ca307",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/41//#testresult/4fbe0b4d714ca307",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690832709058,
+          "stop" : 1690832709080,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "92b4b331815590e1",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/40//#testresult/92b4b331815590e1",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690831208001,
+          "stop" : 1690831208012,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "5f6e493fb4511ab3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/39//#testresult/5f6e493fb4511ab3",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690822501257,
+          "stop" : 1690822501272,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "ee4d29de74e83648",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/38//#testresult/ee4d29de74e83648",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690821686632,
+          "stop" : 1690821686641,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "1e330e594c88a52a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/37//#testresult/1e330e594c88a52a",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690821027336,
+          "stop" : 1690821027356,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "ea151fca7bdbb13b",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/36//#testresult/ea151fca7bdbb13b",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1690819307043,
+          "stop" : 1690819307052,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "336dcd2999de2642",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/35//#testresult/336dcd2999de2642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690804719062,
+          "stop" : 1690804719063,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3bcc5f7efebbc4fa",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/34//#testresult/3bcc5f7efebbc4fa",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690799104200,
+          "stop" : 1690799104203,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "a382999bb9e25597",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/33//#testresult/a382999bb9e25597",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690718255916,
+          "stop" : 1690718255927,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "98931507b64d6ce6",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/32//#testresult/98931507b64d6ce6",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690716935537,
+          "stop" : 1690716935540,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "3a978714146cfe5d",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/31//#testresult/3a978714146cfe5d",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690716883246,
+          "stop" : 1690716883252,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "93b7468dd9f26236",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/28//#testresult/93b7468dd9f26236",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690716055012,
+          "stop" : 1690716055015,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "331d390e669a68c4",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/26//#testresult/331d390e669a68c4",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690714978361,
+          "stop" : 1690714978364,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "fe178f2203a54333",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/27//#testresult/fe178f2203a54333",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690714947112,
+          "stop" : 1690714947115,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "c1e251f253b579d8",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/25//#testresult/c1e251f253b579d8",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690713692613,
+          "stop" : 1690713692622,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "a6aa5e40db7a1fde",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/24//#testresult/a6aa5e40db7a1fde",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690713687366,
+          "stop" : 1690713687369,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "9c1b26d1cddd6b43",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/23//#testresult/9c1b26d1cddd6b43",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690713223982,
+          "stop" : 1690713223985,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "facde6d6e6d5271e",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/21//#testresult/facde6d6e6d5271e",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690712667180,
+          "stop" : 1690712667184,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "219cf6894b75fb8a",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/20//#testresult/219cf6894b75fb8a",
+        "status" : "failed",
+        "statusDetails" : "Connection refused (localhost:5001) -> Connection refused",
+        "time" : {
+          "start" : 1690712635168,
+          "stop" : 1690712635174,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ "Divide" ]
+  },
+  "source" : "69d10216761faf72.json",
+  "parameterValues" : [ ]
+}
