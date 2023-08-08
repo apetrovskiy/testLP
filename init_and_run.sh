@@ -15,6 +15,14 @@ TEST_PRJ_NAME=LP.Tests
 TEST_PRJ_FOLDER="${ROOT_FOLDER}/${TEST_PRJ_NAME}"
 TEST_PRJ_FILE="${TEST_PRJ_FOLDER}/${TEST_PRJ_NAME}.csproj"
 TEST_PRJ_TMP_FILE="${TEST_PRJ_FOLDER}/test.tmp"
+# the allure config item
+ALLURE_CONFIG_FILE_NAME=allureConfig.json
+ALLURE_CONFIG_FILE_PATH=${TEST_PRJ_FOLDER}/${ALLURE_CONFIG_FILE_NAME}
+ALLURE_CONFIG_CONTENT="{\n  \"allure\": {\n    \"directory\": \"../../../../../allure-results\"\n  }\n}\n"
+ALLURE_ITEM_GROUP="\n  <ItemGroup>\n    <Content Include=\"allureConfig.json\">\n      <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n    </Content>\n  </ItemGroup>\n"
+# stylecop
+STYLECOP_PROJECT_GROUP="  <PropertyGroup>\n    <CodeAnalysisRuleSet>$(SolutionDir)/src/stylecop.json</CodeAnalysisRuleSet>\n  </PropertyGroup>\n"
+PROJECT_TAG="</Project>"
 
 rm -f "${TEST_PRJ_FILE}"
 rm -f "${TEST_PRJ_FOLDER}/Class1.cs"
@@ -65,17 +73,24 @@ dotnet add "${TEST_PRJ_FOLDER}" package RestSharp
 # dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Plus.LivingDocPlugin
 ##########
 
-PROJECT_TAG="</Project>"
-ITEM_GROUP="\n  <ItemGroup>\n    <Content Include=\"allureConfig.json\">\n      <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n    </Content>\n  </ItemGroup>\n\n</Project>"
+echo "${ALLURE_CONFIG_CONTENT}" >"${ALLURE_CONFIG_FILE_PATH}"
 
 echo "============================="
-echo "${ITEM_GROUP}"
+cat "${ALLURE_CONFIG_FILE_PATH}"
+echo "============================="
+echo "${ALLURE_ITEM_GROUP}"
+echo "============================="
+echo "${STYLECOP_PROJECT_GROUP}"
 echo "============================="
 echo "${PROJECT_TAG}"
 
 sed '$d' "${TEST_PRJ_FILE}"
 tail -r "${TEST_PRJ_FILE}" | tail -n +3 | tail -r >"${TEST_PRJ_TMP_FILE}"
-echo "${ITEM_GROUP}" >>"${TEST_PRJ_TMP_FILE}"
+{
+    echo "${ALLURE_ITEM_GROUP}"
+    echo "${STYLECOP_PROJECT_GROUP}"
+    echo "${PROJECT_TAG}"
+} >>"${TEST_PRJ_TMP_FILE}"
 mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
 
 if [ "${FULL_RESTORE}" = 1 ]; then
@@ -85,6 +100,6 @@ if [ "${FULL_RESTORE}" = 1 ]; then
 fi
 # from here: dotnet tool install dotnet-format --version "7.*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json
 dotnet tool restore
-dotnet format
-dotnet build
-dotnet test
+dotnet format -v d
+dotnet build --no-restore
+dotnet test --no-build --verbosity normal
