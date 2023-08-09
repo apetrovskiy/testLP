@@ -1,0 +1,186 @@
+{
+  "uid" : "cc9974a6faf5256",
+  "name" : "Multiply two numbers",
+  "fullName" : "Multiply two numbers",
+  "historyId" : "Multiply two numbers",
+  "time" : {
+    "start" : 1691571965897,
+    "stop" : 1691571965914,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching step definition found for the step",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1691571965897,
+      "stop" : 1691571965897,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1691571965897,
+      "stop" : 1691571965897,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1691571938938,
+      "stop" : 1691571938939,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching step definition found for the step",
+    "steps" : [ {
+      "name" : "Given  the first number is 5",
+      "time" : {
+        "start" : 1691571965897,
+        "stop" : 1691571965906,
+        "duration" : 9
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  the second number is 50",
+      "time" : {
+        "start" : 1691571965906,
+        "stop" : 1691571965906,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the two numbers are multiplied",
+      "time" : {
+        "start" : 1691571965907,
+        "stop" : 1691571965913,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the result should be 250",
+      "time" : {
+        "start" : 1691571965913,
+        "stop" : 1691571965913,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az809-476"
+  }, {
+    "name" : "feature",
+    "value" : "Calculator API"
+  }, {
+    "name" : "tag",
+    "value" : "Multiply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7a7afb9c767e17b3",
+        "reportUrl" : "https://apetrovskiy.github.io/testLP/47//#testresult/7a7afb9c767e17b3",
+        "status" : "broken",
+        "statusDetails" : "No matching step definition found for the step",
+        "time" : {
+          "start" : 1691571908390,
+          "stop" : 1691571908407,
+          "duration" : 17
+        }
+      } ]
+    },
+    "tags" : [ "Multiply" ]
+  },
+  "source" : "cc9974a6faf5256.json",
+  "parameterValues" : [ ]
+}
