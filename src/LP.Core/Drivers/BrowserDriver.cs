@@ -47,7 +47,7 @@ public class BrowserDriver : IDisposable
     /// <summary>
     /// Creates the Selenium web driver (opens a browser).
     /// </summary>
-    /// <returns></returns>
+    /// <returns>IWebDriver.</returns>
     private IWebDriver CreateWebDriver()
     {
         // We use the Chrome browser

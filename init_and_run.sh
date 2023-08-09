@@ -11,6 +11,7 @@ ROOT_FOLDER=src
 MAIN_PRJ_NAME=LP.Core
 MAIN_PRJ_FOLDER="${ROOT_FOLDER}/${MAIN_PRJ_NAME}"
 MAIN_PRJ_FILE="${MAIN_PRJ_FOLDER}/${MAIN_PRJ_NAME}.csproj"
+MAIN_PRJ_TMP_FILE="${MAIN_PRJ_FOLDER}/main.tmp"
 TEST_PRJ_NAME=LP.Tests
 TEST_PRJ_FOLDER="${ROOT_FOLDER}/${TEST_PRJ_NAME}"
 TEST_PRJ_FILE="${TEST_PRJ_FOLDER}/${TEST_PRJ_NAME}.csproj"
@@ -84,6 +85,16 @@ echo "${STYLECOP_ITEM_GROUP}"
 echo "============================="
 echo "${PROJECT_TAG}"
 
+# main prj
+sed '$d' "${MAIN_PRJ_FILE}"
+tail -r "${MAIN_PRJ_FILE}" | tail -n +3 | tail -r >"${MAIN_PRJ_TMP_FILE}"
+{
+    echo "${STYLECOP_ITEM_GROUP}"
+    echo "${PROJECT_TAG}"
+} >>"${MAIN_PRJ_TMP_FILE}"
+mv "${MAIN_PRJ_TMP_FILE}" "${MAIN_PRJ_FILE}"
+
+# test prj
 sed '$d' "${TEST_PRJ_FILE}"
 tail -r "${TEST_PRJ_FILE}" | tail -n +3 | tail -r >"${TEST_PRJ_TMP_FILE}"
 {
