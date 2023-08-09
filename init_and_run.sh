@@ -20,8 +20,8 @@ ALLURE_CONFIG_FILE_NAME=allureConfig.json
 ALLURE_CONFIG_FILE_PATH=${TEST_PRJ_FOLDER}/${ALLURE_CONFIG_FILE_NAME}
 ALLURE_CONFIG_CONTENT="{\n  \"allure\": {\n    \"directory\": \"../../../../../allure-results\"\n  }\n}\n"
 ALLURE_ITEM_GROUP="\n  <ItemGroup>\n    <Content Include=\"allureConfig.json\">\n      <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n    </Content>\n  </ItemGroup>\n"
-# stylecop
-STYLECOP_PROJECT_GROUP="  <PropertyGroup>\n    <CodeAnalysisRuleSet>$(SolutionDir)/src/stylecop.json</CodeAnalysisRuleSet>\n  </PropertyGroup>\n"
+# stylecop #
+STYLECOP_ITEM_GROUP="  <ItemGroup>\n    <AdditionalFiles Include=\"../stylecop.json\" />\n  </ItemGroup>\n"
 PROJECT_TAG="</Project>"
 
 rm -f "${TEST_PRJ_FILE}"
@@ -80,7 +80,7 @@ cat "${ALLURE_CONFIG_FILE_PATH}"
 echo "============================="
 echo "${ALLURE_ITEM_GROUP}"
 echo "============================="
-echo "${STYLECOP_PROJECT_GROUP}"
+echo "${STYLECOP_ITEM_GROUP}"
 echo "============================="
 echo "${PROJECT_TAG}"
 
@@ -88,7 +88,7 @@ sed '$d' "${TEST_PRJ_FILE}"
 tail -r "${TEST_PRJ_FILE}" | tail -n +3 | tail -r >"${TEST_PRJ_TMP_FILE}"
 {
     echo "${ALLURE_ITEM_GROUP}"
-    echo "${STYLECOP_PROJECT_GROUP}"
+    echo "${STYLECOP_ITEM_GROUP}"
     echo "${PROJECT_TAG}"
 } >>"${TEST_PRJ_TMP_FILE}"
 mv "${TEST_PRJ_TMP_FILE}" "${TEST_PRJ_FILE}"
@@ -98,7 +98,7 @@ if [ "${FULL_RESTORE}" = 1 ]; then
     dotnet clean
     dotnet restore
 fi
-# from here: dotnet tool install dotnet-format --version "7.*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json
+# install from here: dotnet tool install dotnet-format --version "7.*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet7/nuget/v3/index.json
 dotnet tool restore
 dotnet format -v d
 dotnet build --no-restore

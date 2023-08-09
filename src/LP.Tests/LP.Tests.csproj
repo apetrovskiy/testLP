@@ -44,8 +44,8 @@
     </Content>
   </ItemGroup>
 
-  <PropertyGroup>
-    <CodeAnalysisRuleSet>/src/stylecop.json</CodeAnalysisRuleSet>
-  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="../stylecop.json" />
+  </ItemGroup>
 
 </Project>
