@@ -9,8 +9,5 @@ using NUnit.Framework;
 public class NunitConfig
 {
     [OneTimeSetUp]
-    public void Init()
-    {
-        Environment.CurrentDirectory = Path.GetDirectoryName(this.GetType().Assembly.Location);
-    }
+    public void Init() => Environment.CurrentDirectory = Path.GetDirectoryName(path: this.GetType().Assembly.Location) ?? string.Empty;
 }
