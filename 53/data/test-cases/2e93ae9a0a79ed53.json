@@ -1,0 +1,133 @@
+{
+  "uid" : "2e93ae9a0a79ed53",
+  "name" : "Markdown body",
+  "fullName" : "LP.Tests/Features/Sample/Markdown body",
+  "historyId" : "f7347c3f497fca52216797f2f1dfcc78",
+  "time" : {
+    "start" : 1697501656369,
+    "stop" : 1697501656382,
+    "duration" : 13
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching definition found for the step 'a blog post named \"Random\" with Markdown body'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501656368,
+      "stop" : 1697501656368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501656368,
+      "stop" : 1697501656368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1697501656328,
+      "stop" : 1697501656328,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching definition found for the step 'a blog post named \"Random\" with Markdown body'",
+    "steps" : [ {
+      "name" : "Given  a blog post named \"Random\" with Markdown body",
+      "time" : {
+        "start" : 1697501656369,
+        "stop" : 1697501656375,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2360380c2bdb43ab",
+      "name" : "multiline argument",
+      "source" : "2360380c2bdb43ab.txt",
+      "type" : "text/plain",
+      "size" : 133
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az477-880"
+  }, {
+    "name" : "language",
+    "value" : "C#"
+  }, {
+    "name" : "framework",
+    "value" : "SpecFlow"
+  }, {
+    "name" : "feature",
+    "value" : "Sample"
+  }, {
+    "name" : "tag",
+    "value" : "mytag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "mytag" ]
+  },
+  "source" : "2e93ae9a0a79ed53.json",
+  "parameterValues" : [ ]
+}
