@@ -1,0 +1,130 @@
+{
+  "uid" : "9f6c267fc23e8e52",
+  "name" : "Table example",
+  "fullName" : "LP.Tests/Features/Sample/Table example",
+  "historyId" : "8c0dffa407cd65fe7a61f8785ce57e72",
+  "time" : {
+    "start" : 1697501654532,
+    "stop" : 1697501654546,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching definition found for the step 'the following users exist:'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1697501654467,
+      "stop" : 1697501654467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501654531,
+      "stop" : 1697501654531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501654531,
+      "stop" : 1697501654531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching definition found for the step 'the following users exist:'",
+    "steps" : [ {
+      "name" : "Given  the following users exist:",
+      "time" : {
+        "start" : 1697501654532,
+        "stop" : 1697501654539,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4bbc2d3bd390323",
+        "name" : "table",
+        "source" : "d4bbc2d3bd390323.csv",
+        "type" : "text/csv",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az562-631"
+  }, {
+    "name" : "language",
+    "value" : "C#"
+  }, {
+    "name" : "framework",
+    "value" : "SpecFlow"
+  }, {
+    "name" : "feature",
+    "value" : "Sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f6c267fc23e8e52.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid" : "be3f14e748bbd190",
+  "name" : "eating",
+  "fullName" : "LP.Tests/Features/Outline example/eating",
+  "historyId" : "34ee9ba4454a16feef7e0401c2eb0a5b",
+  "time" : {
+    "start" : 1697501654380,
+    "stop" : 1697501654429,
+    "duration" : 49
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching definition found for the step 'there are 20 cucumbers'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501654380,
+      "stop" : 1697501654380,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501654380,
+      "stop" : 1697501654380,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1697501654333,
+      "stop" : 1697501654333,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching definition found for the step 'there are 20 cucumbers'",
+    "steps" : [ {
+      "name" : "Given  there are 20 cucumbers",
+      "time" : {
+        "start" : 1697501654380,
+        "stop" : 1697501654387,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I eat 5 cucumbers",
+      "time" : {
+        "start" : 1697501654387,
+        "stop" : 1697501654393,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I should have 15 cucumbers",
+      "time" : {
+        "start" : 1697501654393,
+        "stop" : 1697501654408,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az562-631"
+  }, {
+    "name" : "language",
+    "value" : "C#"
+  }, {
+    "name" : "framework",
+    "value" : "SpecFlow"
+  }, {
+    "name" : "feature",
+    "value" : "Outline example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "eat",
+    "value" : "\"5\""
+  }, {
+    "name" : "left",
+    "value" : "\"15\""
+  }, {
+    "name" : "start",
+    "value" : "\"20\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be3f14e748bbd190.json",
+  "parameterValues" : [ "\"5\"", "\"15\"", "\"20\"" ]
+}

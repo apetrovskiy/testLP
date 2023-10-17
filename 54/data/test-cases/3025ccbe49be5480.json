@@ -1,0 +1,204 @@
+{
+  "uid" : "3025ccbe49be5480",
+  "name" : "Multiple Givens",
+  "fullName" : "LP.Tests/Features/Highlander/Multiple Givens",
+  "historyId" : "1981c431d906ba0512df85e9ee025697",
+  "time" : {
+    "start" : 1697501653734,
+    "stop" : 1697501653827,
+    "duration" : 93
+  },
+  "status" : "broken",
+  "statusMessage" : "No matching definition found for the step 'one thing'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501653733,
+      "stop" : 1697501653733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupTestUsers [10000]",
+    "time" : {
+      "start" : 1697501653733,
+      "stop" : 1697501653733,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetupStuffForFeatures [10000]",
+    "time" : {
+      "start" : 1697501653588,
+      "stop" : 1697501653588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No matching definition found for the step 'one thing'",
+    "steps" : [ {
+      "name" : "Given  one thing",
+      "time" : {
+        "start" : 1697501653734,
+        "stop" : 1697501653744,
+        "duration" : 10
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  another thing",
+      "time" : {
+        "start" : 1697501653744,
+        "stop" : 1697501653751,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  yet another thing",
+      "time" : {
+        "start" : 1697501653751,
+        "stop" : 1697501653758,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  I open my eyes",
+      "time" : {
+        "start" : 1697501653758,
+        "stop" : 1697501653765,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  I should see something",
+      "time" : {
+        "start" : 1697501653766,
+        "stop" : 1697501653773,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "But  I shouldn't see something else",
+      "time" : {
+        "start" : 1697501653773,
+        "stop" : 1697501653780,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "No matching definition found for this step",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "fv-az562-631"
+  }, {
+    "name" : "language",
+    "value" : "C#"
+  }, {
+    "name" : "framework",
+    "value" : "SpecFlow"
+  }, {
+    "name" : "feature",
+    "value" : "Highlander"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3025ccbe49be5480.json",
+  "parameterValues" : [ ]
+}
