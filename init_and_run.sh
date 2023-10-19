@@ -67,8 +67,8 @@ dotnet add "${TEST_PRJ_FOLDER}" package FluentAssertions
 # web
 dotnet add "${MAIN_PRJ_FOLDER}" package Selenium.WebDriver
 dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver
-dotnet add "${MAIN_PRJ_FOLDER}" Selenium.WebDriver.ChromeDriver
-dotnet add "${TEST_PRJ_FOLDER}" Selenium.WebDriver.ChromeDriver
+dotnet add "${MAIN_PRJ_FOLDER}" package Selenium.WebDriver.ChromeDriver
+dotnet add "${TEST_PRJ_FOLDER}" package Selenium.WebDriver.ChromeDriver
 
 ##########
 # dotnet add "${TEST_PRJ_FOLDER}" package Swashbuckle.AspNetCore

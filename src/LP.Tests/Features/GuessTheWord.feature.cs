@@ -28,7 +28,7 @@ namespace LP.Tests.Features
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "GuessTheWiord.feature"
+#line 1 "GuessTheWord.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
