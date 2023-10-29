@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","6","","","","","","Multiply two numbers",""
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","4","","","","","","Add two numbers 2",""
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","3","","","","","","Add two numbers",""
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","7","","","","","","Subtract two numbers",""
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","4","","","","","","Divide two numbers",""
-"failed","Sun Jul 30 08:24:55 GMT 2023","Sun Jul 30 08:24:55 GMT 2023","11","","","","","","Divide by 0 returns 0",""
