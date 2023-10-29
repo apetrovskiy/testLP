@@ -35,7 +35,7 @@ public class MyHooks
         var location = testRunnerManager.TestAssembly.Location;
 
         // ITestRunner from test thread container
-        var threadId = testRunner.ThreadId;
+        // TODO: 20231030 var threadId = testRunner.ThreadId;
     }
 
     [BeforeScenario]

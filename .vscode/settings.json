@@ -1,3 +1,13 @@
 {
-    "dotnet.defaultSolution": "TestLP.sln"
+    "dotnet.defaultSolution": "TestLP.sln",
+    “cucumberautocomplete.steps”: [“/**/Steps/*.cs”],
+    “cucumberautocomplete.customParameters”: [
+        {
+        “parameter”: “\”(.*)\””,
+        “value”: “.*”
+        },
+        {
+        “parameter”: “\”\”(.*)\”\””,
+        “value”: “.*”
+        }]
 }
