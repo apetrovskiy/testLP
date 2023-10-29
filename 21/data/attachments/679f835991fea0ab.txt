@@ -1,4 +1,0 @@
-Some Title, Eh?
-===============
-Here is the first paragraph of my blog post. Lorem ipsum dolor sit amet,
-consectetur adipiscing elit.

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 29 13:46:50 GMT 2023","Sun Oct 29 13:46:52 GMT 2023","2419","","NUnit","","SimpleTest","TestLoginOK","02",""
+"passed","Sun Oct 29 13:46:48 GMT 2023","Sun Oct 29 13:46:50 GMT 2023","1333","","NUnit","","SimpleTest","Test01","01",""
