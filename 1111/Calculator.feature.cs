@@ -20,24 +20,22 @@ namespace LP.Tests.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Guess the word")]
-    public partial class GuessTheWordFeature
+    [NUnit.Framework.DescriptionAttribute("calculator")]
+    public partial class CalculatorFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private static string[] featureTags = ((string[])(null));
         
-#line 1 "GuessTheWiord.feature"
+#line 1 "Calculator.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Guess the word", "    The word guess game is a turn-based game for two players.\n    The Maker makes" +
-                    " a word for the Breaker to guess. The game\n    is over when the Breaker guesses " +
-                    "the Maker\'s word.", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "calculator", null, ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -76,13 +74,13 @@ namespace LP.Tests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Maker starts a game")]
-        public void MakerStartsAGame()
+        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        public void AddTwoNumbers()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Maker starts a game", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 9
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 3
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -92,24 +90,36 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
-#line 10
-        testRunner.When("the Maker starts a game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 4
+        testRunner.Given("the first number is 50", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 11
-        testRunner.Then("the Maker waits for a Breaker to join", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 5
+        testRunner.And("the second number is 70", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 6
+        testRunner.When("the two numbers are added", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 7
+        testRunner.Then("the result should be 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Breaker joins a game")]
-        public void BreakerJoinsAGame()
+        [NUnit.Framework.DescriptionAttribute("Add two numbers permutations")]
+        [NUnit.Framework.TestCaseAttribute("0", "0", "0", null)]
+        [NUnit.Framework.TestCaseAttribute("-1", "10", "9", null)]
+        [NUnit.Framework.TestCaseAttribute("6", "9", "15", null)]
+        public void AddTwoNumbersPermutations(string firstNumber, string secondNumber, string expectedResult, string[] exampleTags)
         {
-            string[] tagsOfScenario = ((string[])(null));
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Breaker joins a game", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 14
+            argumentsOfScenario.Add("First number", firstNumber);
+            argumentsOfScenario.Add("Second number", secondNumber);
+            argumentsOfScenario.Add("Expected result", expectedResult);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers permutations", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 10
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -119,14 +129,17 @@ namespace LP.Tests.Features
             else
             {
                 this.ScenarioStart();
-#line 15
-        testRunner.Given("the Maker has started a game with the word \'silky\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 11
+        testRunner.Given(string.Format("the first number is {0}", firstNumber), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 16
-        testRunner.When("the Breaker joins the Maker\'s game", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
+        testRunner.And(string.Format("the second number is {0}", secondNumber), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 17
-        testRunner.Then("the Breaker must guess a word with 5 characters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 13
+        testRunner.When("the two numbers are added", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 14
+        testRunner.Then(string.Format("the result should be {0}", expectedResult), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

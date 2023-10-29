@@ -14,5 +14,10 @@
     },
     "language": {
         "feature": "en-US"
-    }
+    },
+    "stepAssemblies": [
+        {
+            "assembly": "Allure.SpecFlowPlugin"
+        }
+    ]
 }
