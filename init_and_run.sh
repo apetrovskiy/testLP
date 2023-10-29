@@ -61,7 +61,7 @@ dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow --version 4.0.31-beta
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Tools.MsBuild.Generation --version 4.0.31-beta
 
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit --prerelease
-dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Plus.LivingDocPlugin --prerelease
+# dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.Plus.LivingDocPlugin --prerelease
 # experimentally
 dotnet add "${TEST_PRJ_FOLDER}" package SpecFlow.NUnit.Runners --prerelease
 #
