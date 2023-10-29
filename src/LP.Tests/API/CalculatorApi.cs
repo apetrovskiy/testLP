@@ -60,8 +60,3 @@ public class CalculatorApi
         return response.Result;
     }
 }
-
-internal sealed class CalculatorResponse
-{
-    public int Result { get; set; }
-}
